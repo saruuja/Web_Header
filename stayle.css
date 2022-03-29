@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../Web_Header/img.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+button{
+    color: white;
+    font-size: 15px;
+    padding: 10px 25px;
+    border:  2px solid white;
+    border-radius: 25px;
+    outline: none;
+    box-shadow: 8px 10px 10px #F0E68C;
+    cursor: pointer;
+    background-color: transparent;
+    
+}
+
+.nav{
+    width: 85%;
+    height: 20%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav h4{
+    color: whitesmoke;
+    position:absolute ;
+    margin-top: 8%;
+    margin-left: 2%;
+    transform: translateY(-50%); 
+}
+.main{
+    color: white;
+    position:absolute ;
+    margin: 15% ;
+    transform: translateY(-50%);
+}
+h3{
+    
+    margin: 10px 0 20px;
+
+}
+.main button{
+    background-color: darkslateblue;
+    margin-left: 30%;
+}
+   /*global*/
+ button:hover{
+        background-color:maroon;
+        color: black;
+        cursor:pointer;
+        transition: all 1s ease-in-out;
+      }
+      .highlight{
+        background-color:dodgerblue;
+        color: white;
+        overflow: hidden;
+      }
+      
